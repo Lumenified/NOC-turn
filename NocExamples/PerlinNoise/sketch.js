@@ -8,7 +8,7 @@ function draw() {
 	fill(255);
 	t= t + 0.01;
 	let x = noise(t);
+	console.log(x);
 	x = map(x,0,1,0,width)
 	ellipse(x,height/2,40,40);
-
 }
